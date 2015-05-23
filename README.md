@@ -68,4 +68,3 @@ While you're not restricted to any specific technology to accomplish this goal, 
 ## Submission:
 
 Submit your final solution including **all** source files to training@mulesoft.com. Ensure the subject reads {Your Name} - Technical Project.
-# training-interview-project
