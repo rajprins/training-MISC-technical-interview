@@ -1,7 +1,7 @@
 # MuleSoft Training Interview - Technical Project
 
 ## Summary
-Mule United Airport is undergoing a large legacy modernization initiative. Their primary goal is to expose all their services in a single intuitive REST API.  The current services contain flight data. This flight data represents outbound flights to SFO, CLE, LAX, and PDX from Mule United Airport. The services which expose this data include a SOAP webservice, REST webservice, and database. Your goal is to create a POC (proof of concept) exposing all these services as a single REST service which can be used to **retrieve** flights. Do your best in this exercise to cover as many of the systems as possible and don't feel limited to only covering the goals outlined in this document. We'd like your solution to be representative of your approach a technical challenge such as this!  
+Mule United Airport is undergoing a large legacy modernization initiative. Their primary goal is to expose all their services in a single intuitive REST API.  The current services contain flight data. This flight data represents outbound flights to SFO, CLE, LAX, and PDX from Mule United Airport. The services which expose this data include a SOAP web service, REST web service, and database. Your goal is to create a POC (proof of concept) exposing all these services as a single REST service which can be used to **retrieve** flights. Do your best in this exercise to cover as many of the systems as possible and don't feel limited to only covering the goals outlined in this document. We'd like your solution to be representative of your approach a technical challenge such as this!  
 
 ## Goals:
 
