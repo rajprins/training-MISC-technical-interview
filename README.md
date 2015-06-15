@@ -3,7 +3,7 @@
 ## Summary
 Mule United Airport is undergoing a large legacy modernization initiative. Their primary goal is to expose some of their services in a single intuitive REST API.  The current services contain flight data. This flight data represents outbound flights to SFO, CLE, LAX, and PDX from Mule United Airport. The goal of this exercise is to take either their database or SOAP service and expose it as a REST API. We estimate this project to take around 3-4 hours to complete. 
 
-## Goals:
+## Goals
 
 Below are a few goals to help guide you through the development. 
 
@@ -63,7 +63,7 @@ WSDL address: `http://training.cloudhub.io/essentials/delta?wsdl`
 - PDX
 
 
-## Resources:
+## Resources
 
 Below are some available tools/resources we think you'll find helpful! 
 
@@ -77,6 +77,6 @@ Below are some available tools/resources we think you'll find helpful!
 
 - Reach out to josh.rosso@mulesoft.com if you have any questions around project goals.
 
-## Submission:
+## Submission
 
 Submit your final solution including **all** source files to training@mulesoft.com. Ensure the subject reads {Your Name} - Technical Project.
