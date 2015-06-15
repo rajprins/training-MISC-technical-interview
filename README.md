@@ -5,7 +5,7 @@ Mule United Airport is undergoing a large legacy modernization initiative. Their
 
 ## Goals:
 
-Below are a few goals to help guide you through the development. Remember that we don't require full coverage of every goal; do your best to include as much as possible in your POC. 
+Below are a few goals to help guide you through the development. 
 
 - Design and implement a REST service which exposes the database or SOAP service as a REST API.
 
