@@ -1,23 +1,35 @@
 # MuleSoft Training Interview - Technical Project
 
 ## Summary
-Mule United Airport is undergoing a large legacy modernization initiative. Their primary goal is to expose all their services in a single intuitive REST API.  The current services contain flight data. This flight data represents outbound flights to SFO, CLE, LAX, and PDX from Mule United Airport. The services which expose this data include a SOAP web service, REST web service, and database. Your goal is to create a POC (proof of concept) exposing all these services as a single REST service which can be used to **retrieve** flights. Do your best in this exercise to cover as many of the systems as possible and don't feel limited to only covering the goals outlined in this document. We'd like your solution to be representative of your approach a technical challenge such as this!  
+Mule United Airport is undergoing a large legacy modernization initiative. Their primary goal is to expose some of their services in a single intuitive REST API.  The current services contain flight data. This flight data represents outbound flights to SFO, CLE, LAX, and PDX from Mule United Airport. The goal of this exercise is to take either their database or SOAP service and expose it as a REST API. We estimate this project to take around 3-4 hours to complete. 
 
 ## Goals:
 
 Below are a few goals to help guide you through the development. Remember that we don't require full coverage of every goal; do your best to include as much as possible in your POC. 
 
-- Design and implement a REST service which exposes as many of the above sources of data as possible.
+- Design and implement a REST service which exposes the database or SOAP service as a REST API.
 
 - Return all data in a JSON format.
 
-- Provide something which documents how to interact with the REST service (e.g. RAML or Swagger).
+- Package the project as a Mule deployable.
 
-- Anything else you feel beneficial to the solution!
+## Cool ideas
+
+Got some cool ideas not included in the goals above? No worries! Feel free to get creative with your solution, below are some cool ideas you could try out.
+
+- Writing a specification that defines the interaction with your API.
+
+- Routing to more than one service in your solution.
+
+  - We've even included an extra REST service, if you'd like to test it out!
+
+- Implementing error handling within the API.
+
+- Deploying the app to a Mule server.
 
 ## Systems
 
-Below are the various systems you'll be using in your project. Note you only have read access to these systems.
+Below are details on the various systems which can be used in this project.
 
 ### American MySQL Database
 
@@ -53,7 +65,7 @@ WSDL address: `http://training.cloudhub.io/essentials/delta?wsdl`
 
 ## Resources:
 
-While you're not restricted to any specific technology to accomplish this goal, below are some available tools/resources MuleSoft provides.
+Below are some available tools/resources we think you'll find helpful! 
 
 - MuleSoft documentation: [http://www.mulesoft.org/documentation/display/current/Home](http://www.mulesoft.org/documentation/display/current/Home)
 
